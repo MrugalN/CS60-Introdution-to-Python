@@ -1,0 +1,13 @@
+Style 
+PEP 8 - how the code to be standardize (Best practice to write a code)
+
+"Redibility counts" = "A style guide is about consistency. Consistency with this style guide is important Consistency withtin a project is more important. Consistency withtin one module or fucntion is the most importan"
+
+* Indentation
+* Tabs or Spaces?
+* Maximum Line Length 
+* Blank Lines
+* Imports
+Pylint - pip install Pylint
+black - pip install black
+ 
