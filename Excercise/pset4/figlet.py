@@ -20,7 +20,7 @@ def main():
         else:
             sys.exit("Error: Font not found.")
     else:
-        sys.exit("Usage: python figlet.py [-f | --font] [font_name]")
+        sys.exit("Usage: python figlet.py [-f or --font] [font_name]")
 
     # Set the font
     figlet.setFont(font=font)
