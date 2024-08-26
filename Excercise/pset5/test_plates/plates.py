@@ -1,7 +1,9 @@
 def main():
 
     plate = input("Plate: ")
-    if is_valid(plate):
+
+    valid_plate_bool = is_valid(plate)
+    if valid_plate_bool:
         print("Valid")
     else:
         print("Invalid")
@@ -31,3 +33,7 @@ def is_valid(plate):
             return False  # No letter after numbers
 
     return True
+
+
+if __name__ == "__main__":
+    main()
